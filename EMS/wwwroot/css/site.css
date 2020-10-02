@@ -1,0 +1,49 @@
+﻿
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height: 100vh;
+    background-color: #f8f9fa;
+    background: linear-gradient(to right, rgb(53, 92, 125), rgb(108, 91, 123), rgb(192, 108, 132));
+    overflow: hidden;
+}
+
+.navbar div a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+}
+
+    .navbar div a:hover {
+        color: #f1f1f1;
+        background-color: #4a5b7c;
+    }
+
+    .navbar div a span {
+        color: #FF5722;
+        font-size: 30px;
+    }
+
+hr {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+}
+
+    .flex-container label, h3 {
+        color: #b46a83 !important
+    }
+
+
+.alert {
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+}

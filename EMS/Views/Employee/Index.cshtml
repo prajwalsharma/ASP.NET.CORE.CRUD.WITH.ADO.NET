@@ -1,0 +1,42 @@
+﻿
+@model List<Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="flex-container">
+    <div class="card shadow" style="width:100%">
+        <div class="card-header text-center">
+            <h3>All Employees</h3>
+        </div>
+        <div class="card-body p-4 table-responsive">
+            <table id="empTable" class="table table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>City</th>
+                        <th>Gender</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var emp in Model)
+                    {
+                        <tr>
+                            <td>@emp.Name</td>
+                            <td>@emp.Department</td>
+                            <td>@emp.City</td>
+                            <td>@emp.Gender</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@emp.ID" class="btn btn-primary"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
