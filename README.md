@@ -11,9 +11,8 @@
 
 # Screenshots
 
-![1](D:\Programming\ASP.NET Core 3.1\EMS_PICS\1.PNG)
+![1](D:\Programming\ASP.NET Core 3.1\Employee Management System (EMS)\ASP.NET.CORE.CRUD.WITH.ADO.NET\Screens\1.PNG)
 
-![2](D:\Programming\ASP.NET Core 3.1\EMS_PICS\2.PNG)
+![2](D:\Programming\ASP.NET Core 3.1\Employee Management System (EMS)\ASP.NET.CORE.CRUD.WITH.ADO.NET\Screens\2.PNG)
 
-![3](D:\Programming\ASP.NET Core 3.1\EMS_PICS\3.PNG)
-
+![3](D:\Programming\ASP.NET Core 3.1\Employee Management System (EMS)\ASP.NET.CORE.CRUD.WITH.ADO.NET\Screens\3.PNG)
