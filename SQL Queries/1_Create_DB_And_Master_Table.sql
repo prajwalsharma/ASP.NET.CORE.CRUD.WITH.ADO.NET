@@ -1,0 +1,12 @@
+CREATE DATABASE EMS
+
+CREATE TABLE EMS_TBL_EMPLOYEES(
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[NAME] [varchar](100) NULL,
+	[CITY] [varchar](50) NULL,
+	[DEPARTMENT] [varchar](50) NULL,
+	[GENDER] [varchar](20) NULL,
+	[ACTIVE_STATUS] [int] NULL
+)
+
+
