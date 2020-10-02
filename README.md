@@ -13,3 +13,7 @@
 
 <img src="https://github.com/prajwalsharma/ASP.NET.CORE.CRUD.WITH.ADO.NET/blob/main/Screens/1.PNG">
 
+<img src="https://github.com/prajwalsharma/ASP.NET.CORE.CRUD.WITH.ADO.NET/blob/main/Screens/2.PNG">
+
+<img src="https://github.com/prajwalsharma/ASP.NET.CORE.CRUD.WITH.ADO.NET/blob/main/Screens/3.PNG">
+
